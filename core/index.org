@@ -1,0 +1,19 @@
+#+SETUPFILE: ~/.config/emacs/octaspire/css/file-style.org
+#+OPTIONS: toc:nil num:nil
+#+TITLE: OCTASPIRE/CORE
+
+#+BEGIN_EXPORT html
+<p>
+<a href="../">Home</a> &raquo; Core
+</p>
+#+END_EXPORT
+
+A platform independent container, UTF-8 and utility library in
+standard C99. Has list, map, pair, string, queue and vector containers
+and utilities for handling semantic version numbers, UTF-8 text and
+I/O streams.
+
+- [[manual][Manual]]
+- [[file:core.tar.bz2][Release]]
+- [[file:core.sha512][Checksums]]
+- [[file:core.sha512.sig][Signature]]

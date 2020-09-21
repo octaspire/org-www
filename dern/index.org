@@ -1,0 +1,18 @@
+#+SETUPFILE: ~/.config/emacs/octaspire/css/file-style.org
+#+OPTIONS: toc:nil num:nil
+#+TITLE: OCTASPIRE/DERN
+
+#+BEGIN_EXPORT html
+<p>
+<a href="../">Home</a> &raquo; Dern
+</p>
+#+END_EXPORT
+
+A platform independent programming language in standard C99. It is a
+dialect of Lisp with influences from Scheme, Emacs Lisp and C. Runs in
+Amiga, Haiku, Plan9, Unix, Windows and almost anything between.
+
+- [[manual][Manual]]
+- [[file:dern.tar.bz2][Release]]
+- [[file:dern.sha512][Checksums]]
+- [[file:dern.sha512.sig][Signature]]

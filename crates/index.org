@@ -1,0 +1,20 @@
+#+SETUPFILE: ~/.config/emacs/octaspire/css/file-style.org
+#+OPTIONS: toc:nil num:nil
+#+TITLE: OCTASPIRE/CRATES
+
+#+BEGIN_EXPORT html
+<p>
+<a href="../">Home</a> &raquo; Crates
+</p>
+#+END_EXPORT
+
+Extensible 3D puzzle game. Available at
+[[https://github.com/octaspire/crates][github]].
+
+#+ATTR_HTML: :controls controls
+#+BEGIN_video
+#+HTML: <source src="intro.mp4" type="video/mp4">
+#+END_video
+
+
+

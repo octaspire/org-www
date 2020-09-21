@@ -1,0 +1,14 @@
+#+SETUPFILE: ~/.config/emacs/octaspire/css/file-style.org
+#+OPTIONS: toc:nil num:nil
+#+TITLE: OCTASPIRE/KEYS
+
+#+BEGIN_EXPORT html
+<p>
+<a href="../">Home</a> &raquo; Keys
+</p>
+#+END_EXPORT
+
+ - [[file:octaspire-pubkey.asc][GPG Public Key]]
+
+
+
