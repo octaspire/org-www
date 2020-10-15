@@ -1,0 +1,17 @@
+#+SETUPFILE: ~/.config/emacs/octaspire/css/file-style.org
+#+OPTIONS: toc:nil num:nil
+#+TITLE: OCTASPIRE/OX-BASE64-HTML
+
+#+BEGIN_EXPORT html
+<p>
+<a href="../">Home</a> &raquo; ox-base64-html
+</p>
+#+END_EXPORT
+
+Org export backend for GNU Emacs. It exports Org mode documents into
+stand alone HTML5 files with base64 data URI embedded assets. Assets
+like images, videos and compressed archives are embedded into the
+generated HTML5 file, so that it can be used alone, without any
+external assets.
+
+- [[file:ox-base64-html.el][ox-base64-html.el]]

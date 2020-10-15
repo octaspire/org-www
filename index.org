@@ -4,9 +4,23 @@
 
 * Software
 
+
+** GNU Emacs
+
+ - [[ox-base64-html][ox-base64-html]]
+
+** Programming languages and games
+
  - [[dern][Dern]]
- - [[core][Core]]
  - [[crates][Crates]]
+
+** Utility Libraries
+
+ - [[core][Core]]
+
+* CSS
+
+ - [[ox-octaspire-css][ox-octaspire-css]]
 
 * Links
 

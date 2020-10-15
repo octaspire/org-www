@@ -1,0 +1,20 @@
+#+SETUPFILE: ~/.config/emacs/octaspire/css/file-style.org
+#+OPTIONS: toc:nil num:nil
+#+TITLE: OCTASPIRE/OX-OCTASPIRE-CSS
+
+#+BEGIN_EXPORT html
+<p>
+<a href="../">Home</a> &raquo; ox-octaspire-css
+</p>
+#+END_EXPORT
+
+A CSS for Emacs Org mode HTML exports.
+It should be usable with any Org HTML export, but it is designed
+specially for =ox-base64-html= exported HTML5 files.
+
+The CSS file is generated with Common Lisp LASS
+and contains two IBM Plex fonts embedded in it.
+
+- [[file:style.css][style.css]]
+- [[file:base64-style.org][base64-style.org]]
+- [[file:file-style.org][file-style.org]]
