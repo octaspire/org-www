@@ -1,4 +1,4 @@
-#+SETUPFILE: ~/.config/emacs/octaspire/css/file-style.org
+#+SETUPFILE: ~/.config/emacs/octaspire/submodules/ox-octaspire-css/file-style.org
 #+TITLE: OCTASPIRE/CORE/MANUAL
 
 #+BEGIN_EXPORT html

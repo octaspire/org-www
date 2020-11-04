@@ -1,4 +1,4 @@
-#+SETUPFILE: ~/.config/emacs/octaspire/css/file-style.org
+#+SETUPFILE: ~/.config/emacs/octaspire/submodules/ox-octaspire-css/file-style.org
 #+OPTIONS: toc:nil num:nil
 #+TITLE: OCTASPIRE/OX-OCTASPIRE-CSS
 
