@@ -97,9 +97,9 @@ supporting a subset of C99.
 **  Linux, FreeBSD, OpenBSD, NetBSD, OpenIndiana, DragonFly BSD, MidnightBSD, MINIX 3, Haiku, macOS, Termux, AROS
 
 #+begin_src shell
-curl -O octaspire.com/dern.tar.bz2
-curl -O https://octaspire.io/dern.sha512
-sha512sum -c dern.sha512
+curl -O octaspire.com/dern/dern.tar.bz2
+curl -O https://octaspire.io/dern/dern.sha512
+sha512sum -c --ignore-missing dern.sha512
 tar jxf dern.tar.bz2
 cd dern
 sh how-to-build/YOUR_PLATFORM_NAME_HERE.XX
@@ -113,7 +113,7 @@ different platforms will be added later.
 ** Plan9
 
 #+begin_src shell
-hget http://octaspire.com/dern.tar.bz2 > dern.tar.bz2
+hget http://octaspire.com/dern/dern.tar.bz2 > dern.tar.bz2
 tar xf dern.tar.bz2
 cd dern/*
 rc how-to-build/Plan9.sh
@@ -122,7 +122,7 @@ rc how-to-build/Plan9.sh
 ** Plan9 on ARM Architecture
 
 #+begin_src shell
-hget http://octaspire.com/dern.tar.bz2 > dern.tar.bz2
+hget http://octaspire.com/dern/dern.tar.bz2 > dern.tar.bz2
 tar xf dern.tar.bz2
 cd dern/*
 rc how-to-build/Plan9-arm.sh
@@ -183,7 +183,7 @@ or test them.
 Use ReactOS Applications Manager to install CodeBlocks with GCC
 compiler, a web browser and 7-Zip. Remember the path where you
 installed CodeBlocks. Add CodeBlocks\MinGW\bin and CodeBlocks\MinGW
-into the PATH. Use a web browser to download [[https://octaspire.io/dern.tar.bz2][Dern release]].  Extract
+into the PATH. Use a web browser to download [[https://octaspire.io/dern/dern.tar.bz2][Dern release]].  Extract
 the file two times using 7-Zip, first into dern.tar and then into
 dern. Go to the path where you extracted the archive and into the
 version-x.y.z directory. Run command how-to-build\ReactOS.bat. If you
@@ -194,7 +194,7 @@ directory.
 ** AmigaOS 4.x
 
 Download and install [[http://www.hyperion-entertainment.biz/index.php/downloads?view=download&layout=form&file=82][AmigaOS SDK]]. Download and extract [[http://aminet.net/util/arc/bzip2.lha][bzip2]] to get
-bzip2_68k executable. Download the [[http://octaspire.com/dern.tar.bz2][amalgamated Dern source release]].
+bzip2_68k executable. Download the [[http://octaspire.com/dern/dern.tar.bz2][amalgamated Dern source release]].
 
 Open Shell window and run the following commands:
 
@@ -1432,9 +1432,9 @@ vim, emacs and GNU source-highlight.
 The amalgamated source release can be used without Make or other build
 tools; only a compiler is needed. It is the recommended way of using
 Dern and is available from the =release= directory of the git
-repository and from the =dern.tar.bz2= archives at [[https://octaspire.io/][octaspire.io]] and
-[[http://www.octaspire.com/][octaspire.com]]. However, when there is a need to modify Dern itself or
-to build the documentation, then some tools are needed and the
+repository and from the =dern.tar.bz2= archives at [[https://octaspire.io/][octaspire.io]],
+[[octaspire.co][octaspire.co]] and [[http://www.octaspire.com/][octaspire.com]]. However, when there is a need to modify
+Dern itself or to build the documentation, then some tools are needed and the
 Makefile in the git repository should be used. In this case the files
 to be modified are found from the =dev= directory.
 

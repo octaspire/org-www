@@ -33,9 +33,9 @@ supporting a subset of C99.
 ** Linux, FreeBSD, OpenBSD, NetBSD, OpenIndiana, DragonFly BSD, MidnightBSD, MINIX 3, Haiku, macOS, Termux, AROS
 
 #+begin_src shell
-curl -O octaspire.com/core.tar.bz2
-curl -O https://octaspire.io/core.sha512
-sha512sum -c core.sha512
+curl -O octaspire.com/core/core.tar.bz2
+curl -O https://octaspire.io/core/core.sha512
+sha512sum -c --ignore-missing core.sha512
 tar jxf core.tar.bz2
 cd core
 sh how-to-build/YOUR_PLATFORM_NAME_HERE.XX
@@ -90,7 +90,7 @@ how-to-build\windows-msvc.bat
 
 Download and install [[http://www.hyperion-entertainment.biz/index.php/downloads?view=download&layout=form&file=82][AmigaOS SDK]]. Download and extract [[http://aminet.net/util/arc/bzip2.lha][bzip2]]
 to get /bzip2_68k/ executable. Download
-the [[http://octaspire.com/core.tar.bz2][amalgamated Core source release]].
+the [[http://octaspire.com/core/core.tar.bz2][amalgamated Core source release]].
 
 Open Shell window and run the following commands:
 
