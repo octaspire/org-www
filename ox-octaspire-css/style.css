@@ -127,6 +127,44 @@ video{
     max-width: 60ch;
 }
 
+blockquote{
+    background-color: #aeeeee;
+    border-left: solid 0.25em black;
+    margin: 0;
+    padding-top: 0.25em;
+}
+
+blockquote p{
+    font-size: 1.0em;
+    margin-bottom: 0.125em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+blockquote::before{
+    color: black;
+    content: open-quote;
+    float: left;
+    font-size: 3em;
+}
+
+blockquote::after{
+    content: close-quote;
+    visibility: hidden;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle{
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
 p{
     display: block;
     margin-left: auto;
@@ -144,11 +182,16 @@ img{
     width: auto;
 }
 
+figcaption{
+    font-size: 0.75em;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
 figure{
     display: block;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0.25em auto 0.25em auto;
     max-width: 100%;
     width: auto;
 }

@@ -15,3 +15,9 @@ generated HTML5 file, so that it can be used alone, without any
 external assets.
 
 - [[file:ox-base64-html.el][ox-base64-html.el]]
+
+Development on:
+
+ - [[https://github.com/octaspire/ox-base64-html][github]]
+ - [[https://gitlab.com/octaspire/ox-base64-html][gitlab]]
+ - [[https://builds.sr.ht/~octaspire][sr.ht]]

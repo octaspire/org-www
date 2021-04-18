@@ -18,3 +18,9 @@ and contains two IBM Plex fonts embedded in it.
 - [[file:style.css][style.css]]
 - [[file:base64-style.org][base64-style.org]]
 - [[file:file-style.org][file-style.org]]
+
+Development on:
+
+ - [[https://github.com/octaspire/ox-octaspire-css][github]]
+ - [[https://gitlab.com/octaspire/ox-octaspire-css][gitlab]]
+ - [[https://builds.sr.ht/~octaspire][sr.ht]]
