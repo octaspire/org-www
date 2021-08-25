@@ -1,0 +1,36 @@
+#+SETUPFILE: ~/.config/emacs/octaspire/submodules/ox-octaspire-css/file-style.org
+#+OPTIONS: toc:nil num:nil
+#+TITLE: OCTASPIRE/CRATES 2
+
+#+BEGIN_EXPORT html
+<p>
+<a href="../">Home</a> &raquo; Crates 2
+</p>
+#+END_EXPORT
+
+Work in progress puzzle game. Available at:
+[[https://github.com/octaspire/crates2][github]].
+
+2D version:
+
+#+ATTR_HTML: :controls controls
+#+BEGIN_video
+#+HTML: <source src="2d.mp4" type="video/mp4">
+#+END_video
+
+3D version:
+
+#+ATTR_HTML: :controls controls
+#+BEGIN_video
+#+HTML: <source src="3d.mp4" type="video/mp4">
+#+END_video
+
+Text (ncurses) version:
+
+#+ATTR_HTML: :controls controls
+#+BEGIN_video
+#+HTML: <source src="ncurses.mp4" type="video/mp4">
+#+END_video
+
+
+
